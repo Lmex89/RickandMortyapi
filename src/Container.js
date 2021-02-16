@@ -83,7 +83,7 @@ export const SearchBox = ({handleSearch}) => {
     >
       <div className="card-body">
         <p> Introduce un número del 1-108</p>
-        <input onChange={(e) => SetsearchLocation(e.target.value)}></input>
+        <input type = "number" onChange={(e) => SetsearchLocation(e.target.value)}></input>
         <button
           type="button"
           class="btn btn-primary"
