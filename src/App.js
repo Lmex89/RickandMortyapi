@@ -56,7 +56,7 @@ function App() {
         Rick y morty API 
       </h1>
       <SearchBox handleSearch={handleSearchResidents} />
-      <div className="card mb-3" id="quote-box">
+      <div className="card mb-3 col-12 col-sm-12" id="quote-box">
       <Locationinfo
         Name={nameLocation}
         Type={type}

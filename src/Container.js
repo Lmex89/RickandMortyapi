@@ -17,7 +17,7 @@ export const ResidentInfo = ({
   species,
 }) => {
   return (
-    <div className="col-12  col-sm-12 col-md-12 mt-2">
+    <div className="col-12 col-sm-12 col-md-12 mt-2">
       <div className="card">
         <h3 className="card-title"> {name}</h3>
         <img className="card-img-top" src={img_url} alt={name} />
@@ -78,10 +78,11 @@ export const SearchBox = ({handleSearch}) => {
   const [serchLocation, SetsearchLocation] = useState('');
   return (
     <div
-      className="card "
+      className="card col-10 cos-sm-10 "
       id="quote-box"
     >
       <div className="card-body">
+        <p> Introduce un número del 1-108</p>
         <input onChange={(e) => SetsearchLocation(e.target.value)}></input>
         <button
           type="button"
